@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+    text-align:center;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 200px;
+    text-align: center;
+
+}
+
+
+.prime {
+    color: red;
+}
+
+.statement {
+    color: teal;
+    font-size: large;
+}
+
+#button {
+    margin-top: 15px;
+}
+
+span {
+    margin-top: 15px;
+}
+
+@media (min-width: 900px) {
+    .row {
+        col: sm-6;
+    }
+}
