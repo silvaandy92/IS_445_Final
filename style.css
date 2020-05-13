@@ -12,7 +12,7 @@ header {
 }
 
 
-.prime {
+.result {
     color: red;
 }
 
@@ -33,4 +33,14 @@ span {
     .row {
         col: sm-6;
     }
+}
+
+.Calculation{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.resultBox {
+    border: 1px solid black;
+    height: 20px;
 }

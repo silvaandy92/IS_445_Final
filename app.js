@@ -2,12 +2,12 @@ function findEven(){
 
     var start = document.getElementById("number1").value;
     var end = document.getElementById("number2").value;
-    var evenNums = "<br>Even Numbers:<br>";
+    var evenNums = "";
 
     for(i=start; i<=end; i++){
 
       if(i % 2 == 0){
-        evenNums += i + "<br>";
+        evenNums += i + ",";
       }
     }
 
@@ -19,7 +19,7 @@ document.getElementById('number1').addEventListener('blur', e => {
     const num1 = e.target.value;
     let num1output = '';
     let messageColor='red';
-    if (num1 > 100) {
+    if (num1 > 101) {
         num1output = `Number 1 input ${num1} is not a valid number`
         messageColor = 'red';
     } else if ( num1 < 2) {
